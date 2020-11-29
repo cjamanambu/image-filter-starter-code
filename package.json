@@ -1,5 +1,5 @@
 {
-  "name": "udacity-c2-image-filter",
+  "name": "image-filter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grutt/udacity-c2-image-filter.git"
+    "url": "git+https://github.com/cjamanambu/image-filter-starter-code.git"
   },
   "author": "",
   "license": "ISC",
@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "jimp": "^0.6.4"
+    "jimp": "^0.16.1"
   }
 }
