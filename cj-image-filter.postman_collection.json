@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "9656c20b-e4b4-4b7a-8ddb-42bf6de5b260",
+		"name": "cj-image-filter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/1/15/White_Persian_Cat.jpg",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://upload.wikimedia.org/wikipedia/commons/1/15/White_Persian_Cat.jpg"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "b388448a-dcbe-40f8-a927-845e7d90628f",
+			"key": "host",
+			"value": "http://cj-image-filter-dev.us-east-2.elasticbeanstalk.com"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
